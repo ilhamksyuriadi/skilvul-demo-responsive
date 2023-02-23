@@ -7,7 +7,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --n0: #FFFFFF;
+  --n50: #F0F3F7;
+  --n100: #E4EBF5;
+  --n200: #D6DFEB;
+  --n300: #BFC9D9;
+  --n700: #525867;
+  --n900: #2E3137;
+  --r600: #E02954;
+  --r700: #B31D40;
+  --b700: #06649E;
+  --b800: #144D73;
+  --b900: #13354F;
+  --y50: #FFFAE6;
+  --y300: #FFC400;
+  --y500: #FF7F17;
+  --g500: #00AA5B;
+  --g600: #098A4E;
+}
+
+/* code about responsive below this line */
+.App {
+  background-color: rgb(196, 116, 196);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
